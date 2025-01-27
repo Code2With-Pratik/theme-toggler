@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <style>    
-        body {
-            padding: 25px;
-            background-color: white;
-            color: black;
-            font-size: 25px;
-            }
+    <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
 
-            .dark-mode {
-            background-color: black;
-            color: white;
-            }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
 
-            a{
-                color: rgb(228, 2, 2);
-            }
+      a {
+        color: rgb(228, 2, 2);
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="icon-bar">
-        <a class="active" href="#"><i class="fa fa-home"></i></a>
-        <a href="#"><i class="fa fa-search"></i></a>
-        <a href="#"><i class="fa fa-envelope"></i></a>
-        <a href="#"><i class="fa fa-globe"></i></a>
-        <a href="#"><i class="fa fa-trash"></i></a>
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a>
     </div>
 
     <h1>Toggle Dark/Light Mode</h1>
 
-    <h3>Click the button to toggle between dark and light mode for this page</h3>
-    
+    <h3>
+      Click the button to toggle between dark and light mode for this page
+    </h3>
+
+    <img
+      src="https://streak-stats.demolab.com?user=Code2With-Pratik&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&date_format=M%20j%5B,%20Y%5D&order=3"
+      height="150"
+      alt="streak graph"
+    />
+
     <button onclick="myFunction()">Toggle dark mode</button>
 
     <script>
-        function myFunction() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-            }
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
     </script>
-</body>
+  </body>
 </html>
